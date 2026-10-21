@@ -3,7 +3,10 @@
 	"private": true,
 	"homepage": "https://omp.sh",
 	"license": "MIT",
-	"author": { "name": "Stencil Labs, Inc.", "url": "https://stencil.so" },
+	"author": {
+		"name": "Stencil Labs, Inc.",
+		"url": "https://stencil.so"
+	},
 	"workspaces": {
 		"packages": [
 			"packages/*",
@@ -179,6 +182,7 @@
 		"oxlint": "catalog:",
 		"prettier": "catalog:",
 		"ts-morph": "catalog:",
+		"tsrs": "0.18.0-ts7.1.0-dev.20260929",
 		"typescript": "catalog:"
 	},
 	"overrides": {
